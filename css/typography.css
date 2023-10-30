@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Regular';
+  src: url(../typography/LeagueSpartan-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(../typography/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Vercetti';
+  src: url(../typography/Vercetti-Regular.ttf);
+}
