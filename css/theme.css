@@ -10,7 +10,25 @@ a {
 }
 
 body {
-  background: #000;
+  background: var(--bg-color);
+}
+
+.sun,
+.moon {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.dark {
+  --bg-color: #fff;
+  --text-color: #000;
+  --primary-color: rgb(197, 197, 197);
+  --secondary-color: #FFD369;
+}
+
+.moon {
+  display: none;
 }
 
 :root {

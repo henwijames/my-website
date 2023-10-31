@@ -71,3 +71,21 @@ document.addEventListener("DOMContentLoaded", function () {
    });
 });
 
+let sun = document.querySelector('.sun');
+let moon = document.querySelector('.moon');
+let home = document.querySelector('.home');
+
+sun.addEventListener('click', () => {
+   document.body.classList.add('dark');
+   home.classList.toggle('lighthome')
+   sun.style.display = 'none';
+   moon.style.display = 'block';
+});
+
+moon.addEventListener('click', () => {
+   document.body.classList.remove('dark');
+   home.classList.remove('lighthome')
+   sun.style.display = 'block';
+   moon.style.display = 'none';
+});
+
