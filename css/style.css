@@ -777,6 +777,16 @@ form textarea {
       background: url(../assets/img/bg1.jpg) no-repeat center/cover;
    }
 
+   .home-content h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+   }
+
+   .lighthome {
+      background: url(../assets/img/lightbg1.png) no-repeat center/cover;
+   }
+
    .home-content {
       margin-top: 80%;
    }
