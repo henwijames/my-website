@@ -38,9 +38,7 @@ body {
   --secondary-color: #FFD369;
 }
 
-.container {
-  padding: 10px 10%;
-}
+
 
 nav .fa-bars {
   color: var(--text-color);
