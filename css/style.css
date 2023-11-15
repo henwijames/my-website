@@ -545,7 +545,6 @@ form textarea {
 /* Responsive Media Queries */
 @media only screen and (max-width: 1200px) {
    body {
-      width: 99%;
       overflow-x: hidden;
    }
 
@@ -768,6 +767,10 @@ form textarea {
 }
 
 @media only screen and (max-width: 600px) {
+   body {
+      width: 99%;
+      overflow-x: hidden;
+   }
 
    /* Home */
    .home {
