@@ -20,7 +20,7 @@ setTimeout(hideLoader, duration);
 
 /* loader end */
 
-
+/* Responsive Navbar */
 let menu = document.getElementById('menu');
 let bar = document.querySelector('.fa-bars');
 let times = document.querySelector('.fa-xmark');
@@ -32,7 +32,7 @@ bar.addEventListener('click', () => {
 times.addEventListener('click', () => {
    menu.style.right = '-200px';
 });
-
+/* Responsive Navbar */
 
 /* Tab Contents */
 
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
    });
 });
 
+/* Dark Mode && Light Mode */
 let sun = document.querySelector('.sun');
 let moon = document.querySelector('.moon');
 let home = document.querySelector('.home');
